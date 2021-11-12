@@ -12,7 +12,7 @@
   <body>
     <header class="header">
       <div class="header__bar row">
-        <h1 class="grid-6"><a href="/">PicTweet</a></h1>
+        <h1 class="grid-6"><a href="/">Original</a></h1>
 
         <% if user_signed_in? %>
           <div class="user_nav grid-6">
@@ -25,13 +25,13 @@
             <%= link_to "新規登録", new_user_registration_path, class: "post" %>
           </div>
         <% end %>
-        
+
       </div>
     </header>
     <%= yield %>
     <footer>
       <p>
-        Copyright PicTweet 2019.
+        Copyright  Original.
       </p>
     </footer>
   </body>
